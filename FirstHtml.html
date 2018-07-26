@@ -1,0 +1,68 @@
+<html>
+<head>
+<meta charset="UTF-8"> <!-- 编码方式-->
+
+  <meta name="Generator" content="EditPlus?">
+  <meta name="Author" content="">
+
+  <meta name="Keywords" content=""> <!--content属性后面接自己定义的一些关键字，便于浏览器搜索 -->
+
+  <meta name="Description" content=""> <!-- 对网页的描述信息，-->
+
+  <!-- http-equiv="Refrash" refrash属性后面呢接content="2;http://www.baidu.com/"表示两秒过后跳转到百度首页 -->
+  
+  <link rel="icon" href="https://www.baidu.com/favicon.ico"><!-- 引用了百度的logo-->
+
+  <!-- 表示网页的标题-->
+  <title>html常用标签使用</title>
+</head>
+<body>
+<br/>
+	<p>用户名<input type="text" name="username"></p>
+  <p>密码<input type="password" name="psword"></p>
+  <br>
+   <input type="submit">
+   
+<table width="200px" height="200px" border="1px" align="center" cellspacing="0px" cellpadding="4px">
+   <!--caption属性表示表格的标题名字-->
+      <caption>成绩</caption>
+      <tr>
+	   <th>姓名</th>
+        <th>语文</th> <!--th标签与td标签相比可以让内容居中显示并且加粗-->
+        <th>数学</th>
+        <th>英语</th>
+      </tr>
+      <tr>
+      <td rowspan="1">闫艺鑫</td>  <!--rowspan属性让该标签独占两行,rowspan可以让该标签独占两列-->
+      <td colspan="1" align="center">98</td>
+	  <td rowspan="1">99</td>  <!--rowspan属性让该标签独占两行,rowspan可以让该标签独占两列-->
+      <td colspan="1" align="center">80</td>
+      </tr>
+      <tr>
+       <td rowspan="1">1234</td>  <!--rowspan属性让该标签独占两行,rowspan可以让该标签独占两列-->
+      <td colspan="1" align="center">98</td>
+	  <td rowspan="1">99</td>  <!--rowspan属性让该标签独占两行,rowspan可以让该标签独占两列-->
+      <td colspan="1" align="center">80</td>
+      </tr>
+    </table>
+	
+  
+   爱好:
+  篮球<input type="checkbox" name="hobby" value="basketball">
+  足球<input type="checkbox" name="hobby" value="football">
+  其他游戏<input type="checkbox" name="hobby" value="Othergame">
+
+  <br><br>
+  
+  <br>所在城市
+  <select name="city" align = "center">
+    <option value="山西">山西</option>
+    <option value="河北">河北</option>
+    <option value="山东">山东</option>
+    <option value="河南">河南</option>
+  </select><hr><!--hr标签表示分割线-->
+  
+    男<input type="radio" name="sex" value="male">
+  女<input type="radio" name="sex" value="female">
+</body>
+</html>
